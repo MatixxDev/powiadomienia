@@ -1,0 +1,58 @@
+.container {
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.397) 0px 5px 15px;
+}
+
+.time-container {
+    transition: 0.5s all;
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: 15px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    padding: 15px 30px;
+    margin-top: 5px;
+    width: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.397) 0px 5px 15px;
+}
+
+.msg {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px 25px;
+}
+
+.fa-brake-warning {
+    align-items: center;
+    color: orange;
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.fa-circle-exclamation {
+    align-items: center;
+    color: rgb(255, 0, 0);
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.fa-circle-info {
+    align-items: center;
+    color: rgb(0, 102, 255);
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.icon i {
+    font-size: 25px;
+}
+
+body {
+    background-color: #121212;
+    background-size: 100%;
+    font-family: 'Poppins';
+    color: white;
+}
